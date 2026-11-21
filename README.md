@@ -1,8 +1,21 @@
 # Liam XEO
 
-An agent skill for SEO and AI search. XEO helps you decide which search signals deserve action and check what changed after you ship.
+**An agent skill for ongoing SEO and AI search.** Use XEO to decide which keywords deserve work, diagnose why a page lost visibility, and evaluate a change after it goes live.
 
-For example, a keyword suggested by your agent later turns up in a search report. Before recommending a new page, XEO checks where the evidence came from, whether your own monitoring may have influenced it, and which page already serves that query.
+Ask it questions like:
+
+- Which page should serve this query? Is there enough evidence to create a new one?
+- Why did clicks fall for this query? Did ranking, demand, or the search results page change?
+- After we updated this page, what did Google pick up, and when can we judge the effect?
+
+## What makes XEO different
+
+- **Account for your own research.** When a keyword your agent suggested later appears in a report, XEO checks whether your team searched for or monitored it and what independent evidence supports it. That matters when a single report row could turn into a new landing page.
+- **Diagnose the query and the page together.** XEO compares the exact query, the URL that actually ranked, and the competing pages. It keeps recent or incomplete data separate from finalized data so a fresh signal can inform a diagnosis without closing an experiment early.
+- **Follow a change past launch.** XEO records the baseline and next review date, then checks the live page, the version the search engine saved, and the search and business outcomes separately. If the data are too sparse, it keeps the experiment open and specifies what to check next.
+- **Track AI citations with their evidence.** XEO distinguishes a brand mention from a linked citation. If the visible source cards omit your site and the full list is unavailable, it records citation status as unknown.
+
+The workflow picks up from your project's existing records, so the next review can resume prior decisions and follow-ups. XEO uses your site's exports or configured data sources. The [keyword workflow](skills/xeo/references/keyword-cycle.md) and [AI citation guide](skills/xeo/references/ai-citations.md) document how it makes those decisions.
 
 ## Install in Codex
 
