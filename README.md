@@ -6,12 +6,13 @@ For example, a keyword suggested by your agent later turns up in a search report
 
 ## Install in Codex
 
-From a local clone of this repository, run:
+Run this from the project where you want to use XEO:
 
 ```sh
-mkdir -p ~/.codex/skills
-ln -s "$PWD/skills/xeo" ~/.codex/skills/xeo
+npx skills add xliamren/liam-xeo --skill xeo --agent codex
 ```
+
+Add `--global` to install it for your user account across projects. This command uses the [Skills CLI](https://github.com/vercel-labs/skills) to install directly from GitHub.
 
 Open a new chat and invoke `$xeo`. To use it with a real site, add a `.xeo/context.md` entry in the site's repository. Describe the site and markets, authorized sources, paths for reports and change records, and what the agent may read or update. XEO uses the project's existing data exports or configured collectors.
 
