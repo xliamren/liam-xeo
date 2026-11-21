@@ -268,6 +268,9 @@ Output confirmed facts, competing explanations, contradicted explanations,
 confidence and the smallest useful discriminating next action. Do not repeatedly
 rewrite before reading the previous release's evidence.
 
+For a traffic change, use [traffic attribution](traffic-attribution.md) to
+localize the loss and choose the next evidence check.
+
 For AI citation diagnosis or improvement, apply the linked
 [AI citation workflow](ai-citations.md) within sections 6–9. It adds exact-query
 answer/source analysis, protected cited passages and citation outcome measures;
@@ -332,6 +335,10 @@ Acquire or join compatible historical evidence rather than invent the baseline.
 Use a stable cohort and comparable unchanged pages where feasible; note seasonal,
 engine and competitor changes. Without a discriminating design, describe
 association, not a causal effect or exact number of positions attributable to copy.
+
+When a decision depends on an incremental effect, use the
+[matched change review](matched-change-review.md) to qualify the comparison,
+calculate the contrast and apply the recorded decision criteria.
 
 Choose retain, revise, rollback_recommended or inconclusive. An inconclusive
 read completes only that reading: retain/reopen the experiment and assign its

@@ -50,3 +50,5 @@ python3 -B -m unittest discover -s skills/xeo/scripts
 ```
 
 The [behavioral evaluation](skills/xeo/evals/README.md) separately checks how an agent handles query qualification, incomplete data and inconclusive outcomes.
+
+The [traffic attribution and change review comparison](evals/search-decisions/README.md) includes five synthetic cases, the scoring rubric, and both versions’ decision memos.
