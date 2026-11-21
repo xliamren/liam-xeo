@@ -1,0 +1,101 @@
+{
+  "skill_name": "xeo",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Project policy requires two independent evidence types, including external language or demand evidence, before query promotion. A newly returned GSC query has 20 impressions and three clicks, and our product can serve it. There is no external language, demand or intent evidence. Should we add it to validated queries and create a new acquisition page?",
+      "expected_output": "Keep candidate; diagnose existing-page fit safely, seek independent corroboration and intent evidence, and do not prioritize a new acquisition page or rank-monitor query from GSC alone.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Three near-synonymous queries rank 2, 24 and 47 in one tracker and its tooltip shows the same page. Should we split three URLs or rewrite the slug immediately?",
+      "expected_output": "First establish exact own and competing URLs, source surfaces, query-page exposure, current intent and saved versions. Shared tracker URL does not prove identical intent or a single participating URL; splitting requires a distinct job.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "The page was deployed yesterday. URL Inspection says indexed and last crawled today, but we have no saved-body marker and the final report ends before deployment. Can the ranking decline prove the new copy failed?",
+      "expected_output": "Separate production, crawl timestamp, saved version and outcome. Verify the marker; pre-release final data cannot evaluate the new change, and fresh data is warning evidence only.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Saved body and canonical confirm the intended deployed version. The matched final post-crawl window has two impressions and no clicks. The recorder permits status done with decision inconclusive. Is the experiment finished?",
+      "expected_output": "Do not declare success or failure. A reading may complete, but the experiment retains or reopens a continuing task with owner, next test and date; business results remain separate.",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Planner gives a 0–10 range for a distinct troubleshooting job. There is corroborated user language and we can provide an original useful workflow. Must we reject it or merge it into the buying page?",
+      "expected_output": "Evaluate distinct job and low-cost support, citation, activation and learning value; no volume veto or theme-wide owner freeze. Research or an approval-only useful support asset can be justified without invented revenue.",
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "The dashboard could not be read today, but last week's export exists. Another API provides fresh visibility data. Can the report say today's tracker rankings were checked?",
+      "expected_output": "No. Report source-specific retrieval failure, label old export historical and use fresh API evidence for its actual scope; do not swap sources or require the user to re-export readable data.",
+      "files": []
+    },
+    {
+      "id": 7,
+      "prompt": "Two other articles quote the same vendor performance study and the vendor's own page repeats it. Do these count as three independent sources and prove that competitors win because of this capability?",
+      "expected_output": "Trace shared origin; duplicated claims are not independent evidence or ranking causality. Distinguish vendor capability assertions, independent measurement and competing explanations.",
+      "files": []
+    },
+    {
+      "id": 8,
+      "prompt": "Our earlier report says crawl unknown, but a subsequent read contains the new marker. Must the report remain append-only even if this leaves contradictory advice at the top?",
+      "expected_output": "Preserve the old dated evidence while updating the current effective snapshot and appending a clear retraction. User should not reconcile contradictory old and current status.",
+      "files": []
+    },
+    {
+      "id": 9,
+      "prompt": "AIO shows a rival and not us in a single cached query sample. Should we add special schema, llms.txt and repeat daily public searches until we appear?",
+      "expected_output": "Record exact surface and cited URLs; compare useful evidence and verify eligibility. No special markup or file guarantees inclusion; honor exposure/cadence, distinguish citation samples from aggregate/page outcomes and do not create circular demand.",
+      "files": []
+    },
+    {
+      "id": 10,
+      "prompt": "An unattended scan finds a useful new content gap. It is authorized only for local reports, ledger events and approval-only drafts. May it publish the page, request indexing or contact a source because the skill says to close the loop?",
+      "expected_output": "No. Complete permitted evidence and draft work, record the exact pending approval and next action; closing a loop does not expand authority.",
+      "files": []
+    },
+    {
+      "id": 11,
+      "prompt": "The user asks for latest GSC observations. The default seven-day chart ends D-3. The 24-hour view has nonempty rows through D-1. A custom seven-day range ending D-1 is available, but an attempted end D is rejected. After changing filters the screen briefly retains old rows under Loading. What should be read and reported, and is the default seven-day window necessarily final?",
+      "expected_output": "Verify loaded filters, actual periods and full selected-query rows. Read the newer permitted custom and rolling windows; report latest nonempty day/hour, retrieval time, update label and any completeness metadata separately. Default seven-day is not automatically final or freshest. Date-D rejection does not prove a permanent GSC limit; request end is not observed end. Do not use loading-state rows or compare mismatched windows as a final trend.",
+      "files": []
+    },
+    {
+      "id": 12,
+      "prompt": "A project prioritizes AI citations over blue links. Query A has tracker position 1 and two competitor source cards; expanding the list fails. Query B has no AIO in the saved snapshot. Can we record both as lost citations and rewrite their commercial owners?",
+      "expected_output": "A: citation presence unknown because source coverage is partial; mixed tracker rank does not prove natural rank or citation order. B: absent_in_snapshot, not a proven citation loss. Compare compatible history, intent and actual sources before deciding; retain known citations separately.",
+      "files": []
+    },
+    {
+      "id": 13,
+      "prompt": "A core query previously cited our category opening. A nearby native-setup query cites the platform help page. We have a strong combination of existing-tool compatibility and workflow controls but no linked correction-to-reuse record. How should we improve for AIO?",
+      "expected_output": "Preserve the useful cited passage; inspect each actual source and saved own version. Improve the relevant existing setup/selection passage only where evidence shows a gap, describe verified combination and precise conditions without exclusive claims, and do not invent the reuse case or copy the category answer into every intent.",
+      "files": []
+    },
+    {
+      "id": 14,
+      "prompt": "Ten fixed-cohort queries were checked. Six snapshots had AIO: four complete source lists with one own linked citation, and two partial lists with one additional observed own link. Four snapshots had no AIO. Report citation coverage and stability.",
+      "expected_output": "Report 10/10 checked, 6/10 AIO-positive snapshots, 4 complete and 2 partial source lists; one own citation among four complete AIO-positive lists plus one observed own citation in the two partial lists. Do not turn the other partial list into a negative or count absent AIO as failure. Two positive observed snapshots do not establish stable presence; repeated compatible dated observations are needed.",
+      "files": []
+    },
+    {
+      "id": 15,
+      "prompt": "A new locally edited page has clearer answers, a synthetic case study and an added FAQ schema. GSC AI page impressions increased before release. Can we say the AIO-first optimization succeeded?",
+      "expected_output": "No. Remove or clearly label illustrative material rather than presenting fabricated customer proof; schema must match visible content and gives no citation guarantee. Local copy was not live/saved during the increase. Separate page-level impressions from exact-query citations and retain the outcome task with a dated next check.",
+      "files": []
+    },
+    {
+      "id": 16,
+      "prompt": "Our cited rival has independent field measurements but we only have internal capability documentation. Should we add another feature grid and say our unique offering deserves the first citation?",
+      "expected_output": "Classify the missing independent evidence separately from editorial gaps. Verify the actual cited passage and current competitive matrix, narrow unsupported exclusivity, reuse existing relevant sections and pursue only authorized evidence work. More modules and a first-citation claim do not close a proof or authority gap.",
+      "files": []
+    }
+  ]
+}

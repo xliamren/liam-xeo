@@ -1,0 +1,41 @@
+{
+  "as_of": "2026-10-08",
+  "scope": {
+    "country": "GB",
+    "language": "English",
+    "device": "desktop",
+    "search_type": "web"
+  },
+  "projects": [
+    {
+      "id": "strict",
+      "policy": {
+        "promotion": "Two independent evidence types including external language evidence required.",
+        "monitoring": "No changes authorized."
+      },
+      "keyword": {
+        "id": "q1",
+        "query": "invoice export csv",
+        "state": "candidate",
+        "owner": "/help/export"
+      },
+      "evidence_file": "gsc.json"
+    },
+    {
+      "id": "flexible",
+      "policy": {
+        "promotion": "For existing-page query ownership, compatible final GSC query/page evidence and direct page task coverage suffice. This status does not assert market size.",
+        "monitoring": "No changes authorized."
+      },
+      "keyword": {
+        "id": "q1",
+        "query": "invoice export csv",
+        "state": "candidate",
+        "owner": "/help/export"
+      },
+      "evidence_file": "gsc.json"
+    }
+  ],
+  "page_file": "page.txt",
+  "request": "Assess qualification under each policy. Return proposed states only; no persistent promotion or monitoring mutation authorized."
+}

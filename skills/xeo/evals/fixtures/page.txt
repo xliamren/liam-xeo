@@ -1,0 +1,3 @@
+URL: /help/export
+Export invoices as CSV
+Open Billing, choose the date range, and select Export CSV. The export includes invoice number, date, amount and tax.

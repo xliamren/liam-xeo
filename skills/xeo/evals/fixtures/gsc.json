@@ -1,0 +1,21 @@
+{
+  "retrieved_at": "2026-10-08T10:00:00Z",
+  "period": [
+    "2026-09-01",
+    "2026-09-28"
+  ],
+  "data_state": "final",
+  "country": "GB",
+  "language": "English",
+  "device": "desktop",
+  "search_type": "web",
+  "rows": [
+    {
+      "query": "invoice export csv",
+      "page": "/help/export",
+      "impressions": 120,
+      "clicks": 12
+    }
+  ],
+  "limits": "Site visibility, not market demand; no external language evidence."
+}

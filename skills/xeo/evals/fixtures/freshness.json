@@ -1,0 +1,15 @@
+{
+  "request": "Only report how current these data are. Do not analyze competitors or refresh the portfolio.",
+  "retrieved_at": "2026-10-08T10:00:00Z",
+  "latest_observation": "2026-10-07",
+  "first_incomplete_date": "2026-10-06",
+  "latest_final_observation": "2026-10-05",
+  "tasks": [
+    {
+      "id": "unrelated",
+      "subject": "q2",
+      "status": "open",
+      "due": "2026-10-01"
+    }
+  ]
+}

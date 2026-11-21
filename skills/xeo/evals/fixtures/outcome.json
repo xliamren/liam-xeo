@@ -1,0 +1,28 @@
+{
+  "request": "Evaluate this reading and return the next experiment state. Do not deploy or mutate any live system.",
+  "change": {
+    "id": "c1",
+    "production_verified": true,
+    "saved_version_verified": true,
+    "success_criterion": "Increase qualified signups; assess uncertainty with adequate comparable traffic."
+  },
+  "windows": {
+    "matched_final": true,
+    "pre": {
+      "impressions": 5,
+      "clicks": 1,
+      "qualified_signups": 0
+    },
+    "post": {
+      "impressions": 2,
+      "clicks": 0,
+      "qualified_signups": 0
+    }
+  },
+  "task": {
+    "id": "t1",
+    "status": "open",
+    "due": "2026-10-08",
+    "owner": "analyst"
+  }
+}

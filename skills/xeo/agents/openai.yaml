@@ -1,0 +1,6 @@
+interface:
+  display_name: "Liam XEO"
+  short_description: "Evidence-led keyword, ranking and AI visibility cycles"
+  default_prompt: "Use $xeo to diagnose keyword performance and persist evidence-backed next actions in the project's existing report."
+policy:
+  allow_implicit_invocation: true
