@@ -1,6 +1,12 @@
 # Liam XEO
 
-**An agent skill for ongoing SEO and AI search.** Use XEO to decide which keywords deserve work, diagnose why a page lost visibility, and evaluate a change after it goes live.
+**One agent skill for SEO and GEO.** Use XEO to decide which keywords deserve work, diagnose changes in search visibility, and evaluate page updates after they go live.
+
+## Why XEO?
+
+The **X** in **XEO** brings together **SEO** (search engine optimization) and **GEO** (generative engine optimization). The idea is to work on visibility in traditional search results and in AI-generated answers in the same workflow.
+
+For a page update, that can mean checking which URL ranks for a target query and whether Google's AI Overview links to it. XEO tracks both signals through the same change review, with separate evidence for rankings and AI citations.
 
 Ask it questions like:
 
